@@ -1,0 +1,205 @@
+/* menu */
+#menu{
+    -fx-background-image: url("../images/menu_background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#menuButton {
+    -fx-background-color: linear-gradient(#a42688, #422e63),
+        linear-gradient(#a42688, #422e63),
+        linear-gradient(#a42688, #422e63),
+        linear-gradient(#a42688 50%, #a42688 10%, #a42688 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 24px;
+}
+
+/* game */
+#game{
+    -fx-background-image: url("../images/game_background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+/* score */
+#score{
+    -fx-background-image: url("../images/score_background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#tblScore {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+}
+
+#tblScore .table-column {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffff;
+}
+
+#tblScore .table-column .table-cell {
+    -fx-text-fill: #ffff;
+}
+
+#tblScore .table-row-cell {
+    -fx-background-color: transparent;
+}
+
+#tblScore .table-row-cell:selected {
+    -fx-background-color: #a42688;
+}
+
+/* help */
+#help {
+    -fx-background-image: url("../images/help_background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#txtHelp {
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+}
+
+#btnOK {
+    -fx-background-color:
+            linear-gradient(#a42688, #422e63),
+            linear-gradient(#a42688, #422e63),
+            linear-gradient(#a42688, #422e63),
+            linear-gradient(#a42688 50%, #a42688 10%, #a42688 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 10 20 10 20;
+}
+
+/* State */
+
+#btnPause {
+    -fx-graphic: url('../images/pause.png');
+    -fx-background-color:
+        linear-gradient(#a42688, #422E63),
+        linear-gradient(#a42688, #422E63),
+        linear-gradient(#a42688, #422E63),
+        linear-gradient(#a42688 0%, #a42688 50%, #a42688 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#btnBack {
+    -fx-graphic: url('../images/back.png');
+    -fx-background-color:
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688 0%, #a42688 50%, #a42688 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#lblScore {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a42688 0%, #422E63 100%),
+        #a42688,
+        #a42688,
+        radial-gradient(center 50% 50%, radius 100%, #a42688, #422E63);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+/* Input */
+#input {
+    -fx-background-image: url("../images/input_background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#btnInput {
+    -fx-background-color:
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688 0%, #a42688 50%, #a42688 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#lblEnter {
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#txtPlayer {
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Game over */
+#lblGameOver {
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+}
+
+#btnGameOver {
+    -fx-background-color:
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688, #422E63),
+            linear-gradient(#a42688 0%, #a42688 50%, #a42688 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#gameOver {
+    -fx-background-image: url("../images/input_background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
